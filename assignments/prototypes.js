@@ -156,7 +156,7 @@ const takeDamage = function(damage) {
   if (this.healthPoints <= 0) {
     return this.destroy();
   } else {
-    return `${this.name} took ${damage} damage`;
+    return `${this.name} took ${damage} damage.`;
   }
 };
 

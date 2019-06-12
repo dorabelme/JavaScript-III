@@ -2,7 +2,7 @@
 * in your own words. explain the four principle for the "this" keyword below.
 
 
-*In order to discover what 'this' points to, we have to understand the context, where the function is being called. The keyword is where.
+// In order to discover what 'this' points to, we have to understand the context, where the function is being called. The keyword is where.
  
 * 1. Window/ Global Object Binding -> When this is used in the global scope, tha value of "this" is the window/console object.
 * 2. Implicit Binding -> When a function is invoked by a preceding dot, the object to the left (before the dot) is 'this'.
